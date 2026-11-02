@@ -47,9 +47,12 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) return <h1>Post Not Found</h1>;
 
   return (
-    <main style={{ padding: "2rem" }}>
+    <article>
+ <div style={{ padding: "2rem" }}>
       <h1>{post.title}</h1>
       <div>{post.content}</div>
-    </main>
+    </div>
+    </article>
+   
   );
 }

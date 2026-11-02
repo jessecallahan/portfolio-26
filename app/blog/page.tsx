@@ -1,6 +1,4 @@
 'use client'
-
-
 import Link from 'next/dist/client/link';
 import { blogPosts } from './blog-post';
 import { Box, Card, CardActionArea, CardContent, Container, Typography } from '@mui/material';
